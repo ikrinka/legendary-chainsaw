@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Exo+2:200|Russo+One&display=swap');
+
+header {
+    display: block;
+    background: url("../img/parallax3.jpg");
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+    margin: 0;
+    color: white;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+a{
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px 30px;
+  margin: 30px;
+  color: white;
+  background-color: #4482B2;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  font-family: 'Exo 2', sans-serif;
+}
+
+a:hover{
+    color: #4482B2;
+    background-color: white;
+}
+
+h1{
+  font-family: 'Russo One', sans-serif;
+  margin: 30px;
+  margin-top: 100px;
+  text-align: center;
+  padding-top: 200px;
+  font-size: 45px;
+}
+
+h2{
+  font-family: 'Russo One', sans-serif;
+  margin: 50px 30px;
+  text-align: center;
+  font-size: 30px;
+}
+
+h3{
+  font-family: 'Exo 2', sans-serif;
+  margin: 50px 30px;
+  font-size: 20px;
+  text-align: center;
+}
+
+textarea{
+    width: 1000px;
+    height: 300px;
+}
+
+.png{
+    width: 200px;
+    padding: 50px;
+}
+
+p{
+    font-family: 'Exo 2', sans-serif;
+}
